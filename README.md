@@ -47,7 +47,7 @@ MIT license
 
 ![gif](https://camo.githubusercontent.com/655f5a96b5b6ccb833dbb6e1c77696276a9bd0fb/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f55516c66595175674437726d6363776c76392f67697068792e676966)
 
-[Video](https://zoddoo.tinytake.com/tt/NDEyMTc0MV8xMjY4OTQxOA)
+[Video](https://ttprivatenew.s3.amazonaws.com/pulse/zoddoo/attachments/12781692/TinyTake19-03-2020-06-59-52.mp4)
                 
 ## Question
 
