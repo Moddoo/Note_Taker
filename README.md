@@ -32,7 +32,18 @@ TextEditor Like Vscode, Node.js ...
 
 ## Credits
  
-Back end is handled by me.
+### *App*
+* I used app.get("*") to deploy the homepage .. You can test that by writing random url and u will see the home page everytime 
+
+### *Express*
+* I used express module (node.js framework) to handle the backend  so the user can use CRUD (create , read, update, delete) operations smoothly
+
+### *Middlewares*
+* All professional fullstack developers use it .. 
+* i used express.json and urlencoded to handle requests
+* i used express.static for html files
+* i used express.routers to create new routers and make well handled backend server
+
 
 ## License
 ![badge](https://img.shields.io/badge/Moddoo-ahmed-teal)
