@@ -22,14 +22,17 @@
 TextEditor Like Vscode, Node.js ...
                 
 ## Usage
- 1. Go to terminal and type npm init -y
- 1. then npm i to install the required modules (dependencies)
- 1. then node index.js to run the project
- 1. answer the prompts of questions in the terminal and once you are done anew file will be created holding the data of your team in awell styled page.
+ * Go to the website [Note_Taker](https://aqueous-ridge-05180.herokuapp.com/notes)
+
+ * Fill the inputs with whatever you want then a floppy disk icon will appear .. once its clicked your notes will be saved.
+
+*  Saved notes will appear on the left side of the browser .. click it to show its details.
+
+* If u decided to delete any of your notes click on the trash icon and dynamically your notes will be deleted.
 
 ## Credits
  
-I did this project by myself.
+Back end is handled by me.
 
 ## License
 ![badge](https://img.shields.io/badge/Moddoo-ahmed-teal)
