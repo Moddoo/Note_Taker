@@ -22,7 +22,7 @@
 TextEditor Like Vscode, Node.js ...
                 
 ## Usage
- * Go to the website [Note_Taker](https://aqueous-ridge-05180.herokuapp.com/notes)
+ * Go to the website [Note_Taker](https://aqueous-ridge-05180.herokuapp.com)
 
  * Fill the inputs with whatever you want then a floppy disk icon will appear .. once its clicked your notes will be saved.
 
