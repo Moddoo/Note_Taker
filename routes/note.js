@@ -7,7 +7,13 @@ let id = 1;
 
 router
    .route('/')
-   .get((req,res) => res.status(200).sendFile(`${__dirname}/db.json`))
+   .get((req,res) => {
+       fs.readFile(`${__dirname}/db.json`, (err,data) => {
+           if(err) throw err;
+           savedNotes = JSON.parse(data);
+       });
+       res.status(200).sendFile(`${__dirname}/db.json`);
+    })
    .post((req,res) => {
    let newNote = Object.assign({id: id}, req.body)
        savedNotes.push(newNote)
