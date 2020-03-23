@@ -3,7 +3,6 @@ const express = require('express');
 const router = express.Router();
 
 let savedNotes = [];
-let x = 1;
 
 router
    .route('/')
@@ -17,10 +16,7 @@ router
    
    .post((req,res) => {
     id = Array.from({length: savedNotes.length}, (k,v) => ++v).filter(el => savedNotes.map(e => e.id).indexOf(el) === -1)[0];
-    if(!id)  {
-        id = x;
-        x++;
-    }else x = savedNotes.length + 2;
+    if(!id) id = savedNotes.length+1;
    let newNote = Object.assign({id: id}, req.body);
        savedNotes.push(newNote);
    fs.writeFile(`${__dirname}/db.json`,JSON.stringify(savedNotes, null, 2) , err => {
